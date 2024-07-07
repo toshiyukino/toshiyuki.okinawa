@@ -1,7 +1,11 @@
 baseURL: "https://toshiyuki.okinawa"
-title: ExampleSite
+title: Toshiyuki Sueyoshi
 paginate: 5
 theme: PaperMod
+hasCJKLanguage: true
+
+languageCode: 'ja'
+defaultContentLanguage: 'ja'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -14,7 +18,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: Toshiyuki Sueyoshi's Blog
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -56,18 +60,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    enabled: true # needs to be explicitly set
+    title: Toshiyuki Sueyoshi
+    subtitle: "toshiyuki.okinawa"
+    #imageUrl: "<img location>"
+    #imageWidth: 120
+    #imageHeight: 120
+    #imageTitle: my image
+    #buttons:
+    #  - name: Posts
+    #    url: posts
+    #  - name: Tags
+    #    url: tags
 
   # home-info mode
   homeInfoParams:
@@ -77,10 +81,12 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/toshiyukino"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: instagram
+      url: "https://instagram.com/toshiyukino"
     - name: github
       url: "https://github.com/toshiyukino"
+    - name: flickr
+      url: "https://www.flickr.com/toshiyukino"
 
   #analytics:
   #  google:
@@ -121,10 +127,11 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
