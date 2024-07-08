@@ -87,6 +87,10 @@ params:
       url: "https://github.com/toshiyukino"
     - name: flickr
       url: "https://www.flickr.com/toshiyukino"
+    - name: Bluesky
+      url: "https://bsky.app/profile/toshiyukino.bsky.social"
+    - name: Threads
+      url: "https://www.threads.net/@toshiyukino"
 
   #analytics:
   #  google:
